@@ -2,13 +2,13 @@
 
 convert a hex string to a rgb array and back
 
-# install
+## install
 
 ```bash
 component install ramitos/hexrgb
 ```
 
-# example
+## example
 
 ```js
 var hexrgb = require('hexrgb')
