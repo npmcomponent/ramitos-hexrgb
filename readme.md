@@ -11,7 +11,7 @@ component install ramitos/hexrgb
 # example
 
 ```js
-var hexrgb = require('../src/hexrgb')
+var hexrgb = require('hexrgb')
 var assert = require('assert')
 
 assert.deepEqual(hexrgb.rgb('#fef'), [255, 238, 255, 1])
