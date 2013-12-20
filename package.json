@@ -1,16 +1,33 @@
 {
-    "name": "color-convert",
-    "description": "Plain color conversion functions",
-    "version": "0.3.1",
-    "author": "Heather Arthur <fayearthur@gmail.com>",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/harthur/color-convert.git"
-    },
-    "main": "./index",
-    "devDependencies": {
-        "browserify": ">=1.0.0",
-        "uglify-js": "1.0.x"
-    },
-    "keywords": ["color", "colour", "rgb"]
+  "name": "hexrgb",
+  "version": "0.0.1",
+  "description": "convert a hex string to a rgb array and back",
+  "main": "src/hexrgb",
+  "directories": {
+    "test": "test",
+    "lib": "src"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/hexrgb.git"
+  },
+  "keywords": [
+    "rgb",
+    "array",
+    "hex",
+    "string"
+  ],
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramitos/hexrgb/issues"
+  },
+  "homepage": "https://github.com/ramitos/hexrgb",
+  "dependencies": {
+    "type-component": "0.0.1",
+    "component-plus-node": "0.0.1"
+  }
 }

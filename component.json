@@ -1,0 +1,24 @@
+{
+  "name": "hexrgb",
+  "version": "0.0.1",
+  "description": "convert a hex string to a rgb array and back",
+  "repo": "ramitos/hexrgb",
+  "keywords": [
+    "rgb",
+    "array",
+    "hex",
+    "string"
+  ],
+  "homepage": "https://github.com/ramitos/hexrgb",
+  "license": "MIT",
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "twitter": "@ramitos",
+  "main": "src/hexrgb.js",
+  "scripts": [
+    "src/hexrgb.js"
+  ],
+  "dependencies": {
+    "component/type": "*",
+    "stagas/component-plus-node": "*"
+  }
+}
