@@ -1,6 +1,6 @@
 {
   "name": "hexrgb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "convert a hex string to a rgb array and back",
   "repo": "ramitos/hexrgb",
   "keywords": [
