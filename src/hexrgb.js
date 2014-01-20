@@ -13,10 +13,10 @@ function hexDouble (num) {
 module.exports.rgb = function (string) {
   if (type(string) !== 'string') return [];
 
-  var abbr =  /^#([a-fA-F0-9]{3})$/
-  var hex =  /^#([a-fA-F0-9]{6})$/
-  var rgba = /^rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*([\d\.]+)\s*)?\)$/
-  var per = /^rgba?\(\s*([\d\.]+)\%\s*,\s*([\d\.]+)\%\s*,\s*([\d\.]+)\%\s*(?:,\s*([\d\.]+)\s*)?\)$/
+  var abbr =  /#([a-fA-F0-9]{3})$/
+  var hex =  /#([a-fA-F0-9]{6})$/
+  var rgba = /rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*([\d\.]+)\s*)?\)$/
+  var per = /rgba?\(\s*([\d\.]+)\%\s*,\s*([\d\.]+)\%\s*,\s*([\d\.]+)\%\s*(?:,\s*([\d\.]+)\s*)?\)$/
 
   var rgb = [0, 0, 0], a = 1
   var match = string.match(abbr)
