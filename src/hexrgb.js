@@ -1,5 +1,5 @@
-require('component-plus-node')
-var type = require('type')
+require('stagas-component-plus-node')
+var type = require('component-type')
 
 function scale (num, min, max) {
   return Math.min(Math.max(min, num), max)

@@ -1,33 +1,17 @@
 {
-  "name": "hexrgb",
-  "version": "0.1.0",
+  "name": "ramitos-hexrgb",
   "description": "convert a hex string to a rgb array and back",
-  "main": "src/hexrgb",
-  "directories": {
-    "test": "test",
-    "lib": "src"
-  },
-  "scripts": {
-    "test": "node test/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ramitos/hexrgb.git"
-  },
+  "version": "0.1.0",
   "keywords": [
     "rgb",
     "array",
     "hex",
     "string"
   ],
-  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ramitos/hexrgb/issues"
-  },
-  "homepage": "https://github.com/ramitos/hexrgb",
+  "main": "src/hexrgb.js",
   "dependencies": {
-    "type-component": "0.0.1",
-    "component-plus-node": "0.0.1"
-  }
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "stagas-component-plus-node": "git://github.com/npmcomponent/stagas-component-plus-node.git"
+  },
+  "license": "MIT"
 }
